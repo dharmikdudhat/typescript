@@ -1,5 +1,15 @@
+//typescript
+//TypeScript uses compile time type checking. Which means it checks if the specified types match before running the code, not while running the code.
+//TypeScript is a syntactic superset of JavaScript which adds static typing.
 //let father: number = 5;
 //father = "sfs"; it will give error because num is already specified with type num
+//npm install typescript --save-dev
+//npx tsc
+//npx tsc --init
+
+//When creating a variable, there are two main ways TypeScript assigns a type:
+//Explicit:- let firstName: string = "Dylan";
+//Implicit:- let firstName = "Dylan";
 
 //*program to add two numbers
 //@ts-ignore
@@ -174,6 +184,8 @@
 //*tuple in typescript
 //they sre the data structure that allows you to store fixed size collection of elements of diffrent types.
 //diffrence with array is that the types of element in tuples are fixed and declared at the time of creation.
+//A tuple is a typed array with a pre-defined length and types for each index.
+//Tuples are great because they allow each element in the array to be a known type of value.
 
 // type PersonInfo = readonly [string, number, boolean];
 // const person1: PersonInfo = ["dharmik", 55, true];
