@@ -1,15 +1,15 @@
-//typescript
+//*typescript
 //TypeScript uses compile time type checking. Which means it checks if the specified types match before running the code, not while running the code.
 //TypeScript is a syntactic superset of JavaScript which adds static typing.
 //let father: number = 5;
 //father = "sfs"; it will give error because num is already specified with type num
-//npm install typescript --save-dev
-//npx tsc
-//npx tsc --init
+//?npm install typescript --save-dev
+//?npx tsc
+//?npx tsc --init
 
-//When creating a variable, there are two main ways TypeScript assigns a type:
-//Explicit:- let firstName: string = "Dylan";
-//Implicit:- let firstName = "Dylan";
+//*When creating a variable, there are two main ways TypeScript assigns a type:
+//?Explicit:- let firstName: string = "Dylan";
+//?Implicit:- let firstName = "Dylan";
 
 //*program to add two numbers
 //@ts-ignore
